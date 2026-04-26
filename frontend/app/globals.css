@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+}
+
+:root {
+  --background: #030712;
+  --foreground: #f1f5f9;
+  --card: #111827;
+  --card-foreground: #f1f5f9;
+  --popover: #0a0f1e;
+  --popover-foreground: #f1f5f9;
+  --primary: #7c3aed;
+  --primary-foreground: #ffffff;
+  --secondary: #1e293b;
+  --secondary-foreground: #f1f5f9;
+  --muted: #0a0f1e;
+  --muted-foreground: #94a3b8;
+  --accent: #1e293b;
+  --accent-foreground: #f1f5f9;
+  --destructive: #991b1b;
+  --border: #1e293b;
+  --input: #111827;
+  --ring: #7c3aed;
+  --radius: 1rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply bg-background font-sans text-foreground;
+  }
+
+  body {
+    @apply min-h-screen bg-background text-foreground;
+    background-image:
+      radial-gradient(circle at top, rgba(124, 58, 237, 0.18), transparent 28%),
+      linear-gradient(to bottom, rgba(15, 23, 42, 0.6), rgba(3, 7, 18, 0.96)),
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size:
+      auto,
+      auto,
+      28px 28px,
+      28px 28px;
+    background-position:
+      center top,
+      center,
+      center,
+      center;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  button,
+  [data-slot="button"],
+  .font-mono-ui {
+    font-family: var(--font-mono), monospace;
+  }
+
+  ::selection {
+    background: rgba(124, 58, 237, 0.35);
+    color: #fff;
+  }
+}
+
+@layer utilities {
+  .surface-card {
+    @apply border border-[#1e293b] bg-[#111827]/85 shadow-[0_12px_48px_rgba(0,0,0,0.25)] backdrop-blur-xl;
+  }
+
+  .surface-subtle {
+    @apply border border-[#1e293b] bg-[#0a0f1e]/80 backdrop-blur-xl;
+  }
+
+  .hero-gradient {
+    @apply bg-gradient-to-b from-white via-[#f1f5f9] to-[#64748b] bg-clip-text text-transparent;
+  }
+
+  .purple-glow {
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.3);
+  }
+}

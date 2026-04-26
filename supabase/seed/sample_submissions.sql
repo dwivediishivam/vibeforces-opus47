@@ -1,0 +1,3 @@
+-- Practice submissions are seeded via scripts/seed-supabase.ts.
+-- They depend on auth-generated user IDs, so SQL snapshots are not stable enough
+-- to be the source of truth. The script creates leaderboard-ready demo attempts.

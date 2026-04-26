@@ -1,0 +1,19 @@
+-- Demo auth users are created via scripts/seed-supabase.ts because profiles
+-- reference auth.users and require seeded auth identities first.
+--
+-- Intended learner seed set:
+-- alexkim | Alex Kim | 9847 pts | 28 solved
+-- sarah_p | Sarah Patel | 9231 pts | 27 solved
+-- marcusj | Marcus Johnson | 8654 pts | 26 solved
+-- luna_c | Luna Chen | 7982 pts | 25 solved
+-- raj_d | Raj Deshmukh | 7445 pts | 24 solved
+-- emilyw | Emily Williams | 6890 pts | 22 solved
+-- tomh | Tom Hernandez | 6234 pts | 20 solved
+-- priya_s | Priya Singh | 5678 pts | 19 solved
+-- jordan_b | Jordan Brown | 5123 pts | 17 solved
+-- mia_z | Mia Zhang | 4567 pts | 15 solved
+-- david_l | David Lee | 3890 pts | 14 solved
+-- sofia_r | Sofia Rodriguez | 3234 pts | 12 solved
+-- noah_k | Noah Kumar | 2678 pts | 10 solved
+-- ava_m | Ava Miller | 2012 pts | 8 solved
+-- liam_t | Liam Taylor | 1456 pts | 6 solved

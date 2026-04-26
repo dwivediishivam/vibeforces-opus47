@@ -1,0 +1,5 @@
+-- Challenge data is seeded via:
+--   1. supabase/seed/challenges.sql
+--   2. scripts/seed-supabase.ts
+--
+-- The seed layer is generated from the canonical challenge catalog in shared/challenge-library.ts.

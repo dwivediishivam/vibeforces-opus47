@@ -1,0 +1,27 @@
+{
+  "name": "vibeforces",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VibeForces monorepo",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix frontend run dev\" \"npm --prefix backend run dev\"",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build && npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "start:frontend": "npm --prefix frontend run start",
+    "start:backend": "npm --prefix backend run start",
+    "lint": "npm --prefix frontend run lint && npm --prefix backend run lint",
+    "typecheck": "npm --prefix frontend run typecheck && npm --prefix backend run typecheck",
+    "validate:challenges": "npm --prefix backend exec tsx backend/scripts/validate-challenges.ts",
+    "test:openai": "npm --prefix backend exec tsx backend/scripts/smoke-openai.ts",
+    "db:migrate": "npm --prefix backend exec tsx backend/scripts/apply-migrations.ts",
+    "db:seed:sql": "npm --prefix backend exec tsx backend/scripts/generate-seed-sql.ts",
+    "db:seed": "npm run db:seed:sql && npm --prefix backend exec tsx backend/scripts/seed-supabase.ts",
+    "assets:generate": "npm --prefix backend exec tsx backend/scripts/generate-assets.ts"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

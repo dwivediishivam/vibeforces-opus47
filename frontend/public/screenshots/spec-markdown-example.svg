@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#030712"/>
+  <rect x="68" y="84" width="496" height="552" rx="28" fill="#0A0F1E" stroke="#1E293B"/>
+  <rect x="636" y="84" width="496" height="552" rx="28" fill="#111827" stroke="#1E293B"/>
+  <text x="108" y="144" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700">Markdown Input</text>
+  <text x="676" y="144" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700">Expected HTML</text>
+  <text x="108" y="214" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="24"># Heading One</text>
+  <text x="108" y="254" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="24">## Heading Two</text>
+  <text x="108" y="294" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="24">- Item One</text>
+  <text x="108" y="334" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="24">- Item Two</text>
+  <text x="108" y="374" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="24">**bold** and *italic*</text>
+  <text x="108" y="434" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="22">&#96;&#96;&#96;</text>
+  <text x="108" y="470" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="22">const x = 1;</text>
+  <text x="108" y="506" fill="#94A3B8" font-family="JetBrains Mono, monospace" font-size="22">&#96;&#96;&#96;</text>
+  <text x="676" y="214" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="30" font-weight="700">&lt;h1&gt;Heading One&lt;/h1&gt;</text>
+  <text x="676" y="262" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="26" font-weight="700">&lt;h2&gt;Heading Two&lt;/h2&gt;</text>
+  <text x="676" y="322" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">&lt;ul&gt;</text>
+  <text x="708" y="360" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">&lt;li&gt;Item One&lt;/li&gt;</text>
+  <text x="708" y="396" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">&lt;li&gt;Item Two&lt;/li&gt;</text>
+  <text x="676" y="434" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">&lt;/ul&gt;</text>
+  <text x="676" y="486" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">&lt;strong&gt;bold&lt;/strong&gt;</text>
+  <text x="676" y="522" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">&lt;em&gt;italic&lt;/em&gt;</text>
+  <rect x="676" y="552" width="360" height="54" rx="18" fill="#0A0F1E" stroke="#334155"/>
+  <text x="706" y="586" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="22">&lt;pre&gt;&lt;code&gt;const x = 1;&lt;/code&gt;&lt;/pre&gt;</text>
+</svg>

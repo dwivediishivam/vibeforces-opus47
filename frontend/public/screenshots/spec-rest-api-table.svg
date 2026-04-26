@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#030712"/>
+  <rect x="72" y="92" width="1056" height="536" rx="28" fill="#0A0F1E" stroke="#1E293B"/>
+  <text x="108" y="156" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="34" font-weight="700">Todo API Endpoints</text>
+  <rect x="108" y="196" width="984" height="72" rx="18" fill="#111827"/>
+  <rect x="108" y="286" width="984" height="72" rx="18" fill="#111827"/>
+  <rect x="108" y="376" width="984" height="72" rx="18" fill="#111827"/>
+  <rect x="108" y="466" width="984" height="72" rx="18" fill="#111827"/>
+  <text x="140" y="242" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="26">GET</text>
+  <text x="300" y="242" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">/todos</text>
+  <text x="580" y="242" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">List all, optionally filter with ?status=</text>
+  <text x="140" y="332" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="26">GET</text>
+  <text x="300" y="332" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">/todos/:id</text>
+  <text x="580" y="332" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">Fetch one todo item</text>
+  <text x="140" y="422" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="26">POST</text>
+  <text x="300" y="422" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">/todos</text>
+  <text x="580" y="422" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">Create with title, description, status</text>
+  <text x="140" y="512" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="26">PUT</text>
+  <text x="300" y="512" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">/todos/:id</text>
+  <text x="580" y="512" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">Update fields with validation</text>
+  <text x="140" y="602" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="26">DELETE</text>
+  <text x="300" y="602" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="24">/todos/:id</text>
+  <text x="580" y="602" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">Remove the todo and return 204</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#030712"/>
+  <text x="92" y="120" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="34" font-weight="700">Socket Rooms + Broadcast Flow</text>
+  <rect x="94" y="188" width="210" height="120" rx="24" fill="#0A0F1E" stroke="#1E293B"/>
+  <rect x="494" y="156" width="212" height="188" rx="24" fill="#111827" stroke="#7C3AED"/>
+  <rect x="896" y="188" width="210" height="120" rx="24" fill="#0A0F1E" stroke="#1E293B"/>
+  <text x="144" y="248" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="28">Client A</text>
+  <text x="546" y="222" fill="#A78BFA" font-family="JetBrains Mono, monospace" font-size="30" font-weight="700">Socket.io</text>
+  <text x="546" y="262" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">Room join / leave</text>
+  <text x="546" y="296" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">/users command</text>
+  <text x="946" y="248" fill="#F1F5F9" font-family="Inter, sans-serif" font-size="28">Client B</text>
+  <path d="M304 248H494" stroke="#7C3AED" stroke-width="6" stroke-linecap="round"/>
+  <path d="M706 248H896" stroke="#7C3AED" stroke-width="6" stroke-linecap="round"/>
+  <rect x="230" y="460" width="740" height="158" rx="26" fill="#0A0F1E" stroke="#1E293B"/>
+  <text x="274" y="520" fill="#F1F5F9" font-family="JetBrains Mono, monospace" font-size="28">Room State</text>
+  <text x="274" y="562" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">• unique usernames across the server</text>
+  <text x="274" y="598" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">• last 50 messages retained per room</text>
+  <text x="670" y="562" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">• join event notifies everyone else</text>
+  <text x="670" y="598" fill="#94A3B8" font-family="Inter, sans-serif" font-size="22">• messages broadcast to room peers only</text>
+</svg>
