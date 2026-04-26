@@ -176,17 +176,6 @@ supabase/
 
 ---
 
-## Demo
-
-A 3-minute walkthrough of:
-
-1. The SDE1/SDE2 catalog — write a prompt, get scored, see your rating move
-2. **Distributed Debug live** — open a Managed Agents session, watch the SSE event stream populate in real time, see the agent reproduce the failing test, patch the file, submit the fix
-3. **Agent Orchestration** — submit an agent config, watch our orchestrator instantiate it as a real Managed Agent and grade the trace
-
-Demo video: see the hackathon submission.
-
----
 
 ## Acknowledgements
 
